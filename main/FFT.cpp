@@ -22,6 +22,7 @@ public:
         }
 
         // Recursively compute FFT for even and odd parts
+        // This recursively applys the void function
         fft(even, inverse);
         fft(odd, inverse);
 

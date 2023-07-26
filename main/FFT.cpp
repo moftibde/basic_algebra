@@ -5,6 +5,7 @@
 
 class FFT {
 public:
+    // Initializing the main function
     // Perform the Cooley-Tukey Radix-2 FFT on a vector of complex numbers.
     void fft(std::vector<std::complex<double>>& data, bool inverse = false) {
         int n = data.size();
